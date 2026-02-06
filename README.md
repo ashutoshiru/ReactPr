@@ -1,1 +1,1 @@
-My journey of learning react.ja
+My journey of learning react.js

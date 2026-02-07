@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* color: white; */
+}
+html, body{
+  /* background: #000; */
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  background: rgb(38, 104, 126);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.nav{
+  background-color:  rgb(0, 255, 238);
+  color: rgb(84, 60, 60);
+  padding: 20px;
+  margin: 5px;
+}

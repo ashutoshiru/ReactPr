@@ -13,12 +13,18 @@ html,body{
   height: 100vh;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 15px;
 }
 
 .card{
   color: black;
-  height: 400px;
-  width: 300px;
+  height: 330px;
+  width: 275px;
   background-color: #fff;
   border-radius: 30px;
   padding: 25px;
@@ -31,13 +37,15 @@ html,body{
   display:flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .top img{
-  height: 35px;
-  width: 35px;
+  height: 40px; 
+  width: 40px;
   border-radius: 50%;
   border: 1px solid #dadada;
+  padding: 2px;
 }
 
 .top button{
@@ -54,7 +62,7 @@ html,body{
 
 
 .center{
-  background-color: red;
+  /* background-color: red; */
 }
 
 .center h3{
@@ -70,6 +78,7 @@ html,body{
 
 .center h2{
   font-size: 20px;
+  font-weight: 600;
 }
 
 .center .tag{
@@ -80,24 +89,41 @@ html,body{
 }
 
 .center .tag h4{
-  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  font-size: 10px;
   font-weight: 500;
-  padding: 3px 6px;
+  padding: 4px 8px;
+  border-radius: 3px;
+
 }
 
 .bottom{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #b1b1b1;
+  border-top: 1.5px solid #d7d7d7ce;
   padding-top: 15px;
 
 }
 
 .bottom p{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  color: #8b8b8b;
+}
+
+.bottom h3{
+  font-size: 17px;
 }
 
 .bottom button{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  column-width: 600;
 }
+

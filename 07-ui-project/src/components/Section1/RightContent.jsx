@@ -3,10 +3,11 @@ import RightCard from './RightCard'
 
 const RightContent = (props) => {
   return (
-    <div className='h-full w-2/3  p-6 flex flex-nowrap gap-10 overflow-x-auto rounded-4xl'>
-      <RightCard/>
-      <RightCard/>
-      <RightCard/>
+    <div id='right' className='h-full w-2/3  p-6 flex flex-nowrap gap-10 overflow-x-auto rounded-4xl'>
+      {props.users.map((elem, idx) =>{
+        return <RightCard key={idx} id={idx} img={elem.image} tag={elem.tag} color={elem.color}/>
+      })}
+      
     </div>
   )
 }

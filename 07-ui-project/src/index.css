@@ -2,3 +2,7 @@
     font-family: Helvetica
 }
 @import "tailwindcss";
+
+#right::-webkit-scrollbar{
+    display: none;
+}

@@ -9,7 +9,7 @@ const HeroText = () => {
           <br /> segmentation
         </h3>
 
-        <p className="text-xl font-medium text-gray-600">
+        <p className="text-xl font-medium text-gray-600 w-[90%]">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ut eum
           accusamus eligendi cumque praesentium, obcaecati amet unde eaque ea.
         </p>
